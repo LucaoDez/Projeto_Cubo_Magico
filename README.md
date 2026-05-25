@@ -85,11 +85,11 @@ Responsável pela lógica principal do cubo mágico em `src/js/app.js`, incluind
 
 ### Integrante 2
 
-Responsável pela estrutura visual do projeto, incluindo `index.html`, painel de informações, legenda de teclas, botões de controle e organização do layout com CSS.
+Responsável pela estrutura visual do projeto, incluindo `index.html`, painel de informações, legenda de teclas, botões de controle. 
 
 ### Integrante 3
 
-Responsável pelas funcionalidades complementares, documentação e entrega, incluindo contador de movimentos, embaralhamento, detecção de vitória, README, relatório e registro do uso de IA.
+Responsável pelas funcionalidades complementares, incluindo contador de movimentos, embaralhamento, detecção de vitória. Além organização do layout com CSS
 
 ## Uso de IA
 
