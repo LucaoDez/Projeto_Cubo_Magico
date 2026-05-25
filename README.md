@@ -4,9 +4,9 @@ Projeto desenvolvido para a atividade de Programação 3D com Three.js. A propos
 
 ## Integrantes
 
-- Integrante 1: Caio Cordeiro Simões de Oliveira
-- Integrante 2: ______________________________
-- Integrante 3: ______________________________
+- Integrante 1: Felipe Vieira Mendes
+- Integrante 2: Lucas Paraiso Benning de Oliveira 
+- Integrante 3: Caio Cordeiro Simoes de Oliveira 
 
 ## Como executar
 
@@ -113,27 +113,13 @@ O uso de IA foi empregado como apoio na construção e organização do projeto.
 
 ### Ajustes posteriores solicitados à IA
 
-> Mude as teclas para rotacionar o cubo para algo mais convencional: Q/W para face superior, A/S para face frontal, Z/X para face direita, R para reset e E para embaralhar. Fazer uma legenda falando qual botão gira qual lado do cubo.
-
 > Faça também o relatório pedido no PDF.
-
-> Organize o arquivo para que possa ser commitado por 3 pessoas em um GitHub e um README do projeto, levando em conta que o README deve ter o uso de IA.
 
 ### Partes do projeto em que a IA auxiliou
 
 - Estrutura inicial do código Three.js.
 - Implementação do cubo 3D com 27 cubinhos.
 - Lógica de rotação das faces com animação suave.
-- Inclusão dos atalhos de teclado.
 - Organização do painel visual e da legenda.
 - Criação do README.
 - Criação do relatório do projeto.
-- Sugestão de divisão de tarefas entre três integrantes.
-
-### Revisão humana
-
-O código deve ser testado pelos integrantes antes da entrega. A equipe deve conferir se os comandos funcionam corretamente no navegador, se o embaralhamento executa sem travamentos e se os arquivos foram commitados por todos os integrantes no GitHub.
-
-## Observação
-
-Para a entrega final, recomenda-se que cada integrante realize ao menos um commit real no GitHub, respeitando a divisão de tarefas indicada no arquivo `COMO_COMMITAR.md`.
