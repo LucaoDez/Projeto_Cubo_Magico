@@ -1,0 +1,111 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      overflow: hidden;
+      background: radial-gradient(circle at top, #1c2440 0%, #080b14 55%, #03050a 100%);
+      font-family: 'Segoe UI', Arial, sans-serif;
+      color: #fff;
+    }
+
+    canvas { display: block; }
+
+    #painel {
+      position: absolute;
+      top: 16px;
+      left: 16px;
+      width: 330px;
+      max-width: calc(100vw - 32px);
+      background: rgba(5, 8, 18, 0.78);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 16px;
+      padding: 14px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+      z-index: 10;
+    }
+
+    #painel h1 {
+      font-size: 18px;
+      margin-bottom: 6px;
+      color: #ffdd55;
+    }
+
+    #painel p {
+      font-size: 13px;
+      line-height: 1.35;
+      color: #d7dbea;
+      margin-bottom: 10px;
+    }
+
+    .linha {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      margin: 8px 0;
+    }
+
+    .contador, .estado {
+      padding: 7px 10px;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.08);
+      font-size: 13px;
+      color: #fff;
+    }
+
+    .estado { color: #8cffb5; font-weight: 700; }
+
+    .botoes {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 6px;
+      margin-top: 10px;
+    }
+
+    button, select {
+      border: 0;
+      border-radius: 10px;
+      padding: 8px 9px;
+      font-weight: 700;
+      color: #ffffff;
+      background: #2f5cff;
+      cursor: pointer;
+      transition: transform 0.12s ease, filter 0.12s ease, background 0.12s ease;
+    }
+
+    button:hover, select:hover { filter: brightness(1.12); }
+    button:active { transform: scale(0.96); }
+    button:disabled { opacity: 0.45; cursor: not-allowed; }
+
+    .secundario { background: #33394d; }
+    .perigo { background: #d64a4a; }
+    .sucesso { background: #1d9f62; }
+
+    select {
+      width: 100%;
+      background: #33394d;
+      outline: none;
+    }
+
+    #ajuda {
+      position: absolute;
+      right: 16px;
+      bottom: 16px;
+      max-width: 390px;
+      background: rgba(5, 8, 18, 0.72);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 14px;
+      padding: 12px 14px;
+      color: #d7dbea;
+      font-size: 13px;
+      line-height: 1.45;
+      z-index: 10;
+      backdrop-filter: blur(8px);
+    }
+
+    #ajuda strong { color: #ffdd55; }
+
+    @media (max-width: 700px) {
+      #painel { left: 8px; top: 8px; width: calc(100vw - 16px); }
+      #ajuda { left: 8px; right: 8px; bottom: 8px; max-width: none; }
+    }
