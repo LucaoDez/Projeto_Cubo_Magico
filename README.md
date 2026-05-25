@@ -77,15 +77,15 @@ PROJETO_CUBO-MAGICO-github/
         └── app.js
 ```
 
-## Divisão sugerida de tarefas
+## Divisão de tarefas
 
 ### Integrante 1
 
-Responsável pela estrutura visual do projeto, incluindo `index.html`, painel de informações, legenda de teclas, botões de controle e organização do layout com CSS.
+Responsável pela lógica principal do cubo mágico em `src/js/app.js`, incluindo criação dos 27 cubinhos, identificação das faces, agrupamento temporário dos cubinhos e rotação suave das faces.
 
 ### Integrante 2
 
-Responsável pela lógica principal do cubo mágico em `src/js/app.js`, incluindo criação dos 27 cubinhos, identificação das faces, agrupamento temporário dos cubinhos e rotação suave das faces.
+Responsável pela estrutura visual do projeto, incluindo `index.html`, painel de informações, legenda de teclas, botões de controle e organização do layout com CSS.
 
 ### Integrante 3
 
@@ -113,5 +113,4 @@ O uso de IA foi empregado como apoio na construção e organização do projeto.
 - Implementação do cubo 3D com 27 cubinhos.
 - Lógica de rotação das faces com animação suave.
 - Organização do painel visual e da legenda.
-- Criação do README.
-- Criação do relatório do projeto.
+- Estruturação do relatório do projeto.
