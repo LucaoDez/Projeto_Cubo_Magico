@@ -4,7 +4,7 @@ Projeto desenvolvido para a atividade de Programação 3D com Three.js. A propos
 
 ## Integrantes
 
-- Integrante 1: ______________________________
+- Integrante 1: Caio Cordeiro Simões de Oliveira
 - Integrante 2: ______________________________
 - Integrante 3: ______________________________
 
