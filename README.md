@@ -67,17 +67,9 @@ A câmera pode ser movimentada com o mouse usando OrbitControls.
 ## Estrutura do projeto
 
 ```text
-cubo-magico-threejs-github/
+PROJETO_CUBO-MAGICO-github/
 ├── index.html
 ├── README.md
-├── COMO_COMMITAR.md
-├── .gitignore
-├── assets/
-│   └── .gitkeep
-├── docs/
-│   ├── prompt-utilizado.md
-│   ├── relatorio_cubo_magico_3d.pdf
-│   └── relatorio_cubo_magico_3d.docx
 └── src/
     ├── css/
     │   └── style.css
