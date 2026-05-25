@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cubo Mágico 3D – Three.js</title>
+  <link rel="stylesheet" href="src/css/style.css" />
+</head>
+<body>
+  <section id="painel">
+      <h1>Cubo Mágico 3D</h1>
+      <p>Cubo 3×3×3 com rotação suave das faces, câmera orbital, embaralhamento, contador de movimentos, temas e detecção de vitória.</p>
+  
+      <div class="linha">
+        <div class="contador">Movimentos: <strong id="movimentos">0</strong></div>
+        <div class="estado" id="estado">Resolvido</div>
+      </div>
+  
+      <div class="botoes">
+        <button data-move="U" title="Face superior">U</button>
+        <button data-move="D" title="Face inferior">D</button>
+        <button data-move="L" title="Face esquerda">L</button>
+        <button data-move="R" title="Face direita">R</button>
+        <button data-move="F" title="Face frontal">F</button>
+        <button data-move="B" title="Face traseira">B</button>
+        <button data-move="U'" class="secundario" title="Face superior inversa">U'</button>
+        <button data-move="D'" class="secundario" title="Face inferior inversa">D'</button>
+        <button data-move="L'" class="secundario" title="Face esquerda inversa">L'</button>
+        <button data-move="R'" class="secundario" title="Face direita inversa">R'</button>
+        <button data-move="F'" class="secundario" title="Face frontal inversa">F'</button>
+        <button data-move="B'" class="secundario" title="Face traseira inversa">B'</button>
+      </div>
+  
+      <div class="linha">
+        <button id="embaralhar" class="perigo">Embaralhar</button>
+        <button id="reiniciar" class="sucesso">Reiniciar</button>
+      </div>
+  
+      <div class="linha">
+        <select id="tema">
+          <option value="classico">Tema clássico</option>
+          <option value="neon">Tema neon</option>
+          <option value="pastel">Tema pastel</option>
+        </select>
+      </div>
+    </section>
+  
+    <aside id="ajuda">
+      <strong>Mouse:</strong> arraste para orbitar, role para aproximar/afastar.<br />
+      <strong>Teclado:</strong><br />
+      <strong>Q / W:</strong> Face superior, nos dois sentidos<br />
+      <strong>A / S:</strong> Face frontal, nos dois sentidos<br />
+      <strong>Z / X:</strong> Face direita, nos dois sentidos<br />
+      <strong>R:</strong> Resetar cubo<br />
+      <strong>E:</strong> Embaralhar
+    </aside>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+  <script src="src/js/app.js"></script>
+</body>
+</html>
